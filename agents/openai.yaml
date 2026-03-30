@@ -1,0 +1,4 @@
+interface:
+  display_name: "Easy Paper"
+  short_description: "Assist with reading and explaining research papers, sections, formulas, figures, and citations"
+  default_prompt: "Use /easy-paper map to build a paper map for this PDF."
