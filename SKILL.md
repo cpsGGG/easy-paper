@@ -33,12 +33,6 @@ Supported modes:
 
 If the user writes `/easy-paper` or `/ep` followed by a longer natural-language request, infer the intended mode from the request.
 
-Note for platform adapters:
-
-- `/easy-paper` is the primary command name exposed by this skill.
-- `/ep` is a short alias, but some agent frameworks need a separate alias or command file to make `/ep` discoverable.
-- Keep this file as the portable core behavior definition. Put platform-specific alias wiring in adapter files.
-
 ## Core Defaults
 
 - Detect the user's preferred language. If the user wants English, answer in English only. If the user wants Chinese, explain in Chinese and keep key English terms when that improves clarity.
