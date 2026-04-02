@@ -2,6 +2,8 @@
 
 [中文](./README_CN.md)
 
+![Easy Paper Overview](./image_CN/logo.png)
+
 Traditional paper reading is inefficient. Even when you feed a PDF directly into a web-based AI tool, the result is usually just a high-level summary for quick browsing, not a reading framework that truly supports careful study. This becomes especially painful when you are entering an unfamiliar research area and need to build understanding from scratch.
 
 `easy-paper` helps readers quickly get oriented and then read a paper in depth through agent-based interaction. It can start with `map` to build a structured overview of the whole paper, then let the reader move deeper into `section`, `term`, `formula`, `figure`, `table`, `code`, and `cite` based on their actual reading needs. In practice, it solves two problems at once: how to enter a paper faster, and how to truly read it deeply.
